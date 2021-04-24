@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h2{ 
+    text-align: center;
+    font-size:5em;
+    margin:10px;
+}
+h2 .z-layer:first-child{
+    color:red;
+}
+h2 .z-layer {
+    color:rgb(151, 11, 11);
+}
+
+.image img {
+    width:100px;
+    position:relative;
+}
